@@ -1,0 +1,4 @@
+#Tue Jun 04 10:59:11 WEST 2019
+base.0=/Users/dr6845/Documents/GitHub/AnatomiadaTipografia/IType-app/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
