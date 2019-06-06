@@ -1,0 +1,172 @@
+
+
+/* =====================
+GERAL
+===================== */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+}
+
+html{
+width:100%;
+height:100%;
+}
+
+body{
+width:100%;
+height: 100%;
+}
+
+
+/* =====================
+LOGO
+===================== */
+
+.logo{
+float: left;
+position: relative;
+height:70px;
+width: 70px;
+left: 20px;
+top:20px;
+}
+
+/* =====================
+MENU
+===================== */
+.container {
+    margin-top:40px;
+    float:right;
+    /*display: inline-block;*/
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: #B3D1E6;
+    margin: 5px 20px;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4px, 2px);
+    transform: rotate(-45deg) translate(-4px, 2px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-7px, -7px);
+    transform: rotate(45deg) translate(-7px, -7px);
+  }
+
+/* =====================
+    PUBLICAÇOES
+===================== */
+.linha-1{
+    right:20px;
+    left: 20px;
+    top: 120px;
+}
+
+.linha-2{
+    right:50px;
+    left: 20px;
+    top: 310px;
+
+}
+
+/* =====================
+    col
+===================== */
+
+.col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
+  position: relative;
+  float: left;
+  /* background: cyan;
+  height: 30px;
+  border: 1px solid blue; */
+  padding: 0 10px;
+}
+
+.col-12{   
+  width: 100%;
+}
+
+.col-11{
+  width: calc(100%/12*11);
+}
+
+.col-10{
+  width: calc(100%/12*10);
+}
+
+.col-9{
+  width: calc(100%/12*9);
+}
+
+.col-8{
+  width: calc(100%/12*8);
+}
+
+.col-7{
+  width: calc(100%/12*7);
+}
+
+.col-6{
+  width: calc(100%/12*6);
+}
+
+.col-5{
+  width: calc(100%/12*5);
+}
+
+.col-4{
+  width: calc(100%/12*4);
+}
+
+.col-3{
+  width: calc(100%/12*3);
+}
+
+.col-2{
+  width: calc(100%/12*2);
+}
+
+.col-1{
+  width: calc(100%/12);
+}
+
+/*===================
+  COLUMNS OFFSET
+================== */
+
+.col-offset-1{
+  margin-left: calc(100%/12);
+}
+
+.col-offset-2{
+  margin-left: calc(100%/12*2);
+}
+
+/*===================
+  MOBILE
+================== */
+
+@media screen and (max-width:780px){
+  .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1{
+      width:100%; 
+  } 
+  /*  COLUMNS OFFSETS  */
+
+  .col-offset-1, .col-offset-2{
+      margin-left:0;
+  }
+}
+
+
